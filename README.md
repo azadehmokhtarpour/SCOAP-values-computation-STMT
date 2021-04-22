@@ -1,6 +1,5 @@
-# HT-detection
-
-
+# SCOAP Values 
+Hardware testing is needed to ensure that every component of a system is operating as it should. In the last decade, increasing the density of transistors at the chip surface makes this testing process difficult, so vendors try to design and fabricate circuits in a way that their testability facilitated. To do this they adopt a testable design style imposes constraints on the designer. The advantage of this method is that the resulting digital circuit will have features to facilitate the production of test sequences and test processes. Testability is related to the difficulty of controlling and observing the logical values of internal nodes from circuit inputs and outputs, respectively. One way to calculate this testability is using SCOAP values. Controllability and observability are two most important measurements of SCOAP which can be calculated in two structural designs: Sequential and combinational. Controllability is difficulty of setting and controlling value of signal to 0 or 1. Observability is difficulty of observing changes in signal value at output. If all signals and nodes in the circuit have less controllability and observability that’s mean circuit is testable. To calculate this measurements, we develop a project named: STMT SCOAP value calculation. You can do “build and usage’ steps to build and run this project. Output of observability and controllability will be produced in CSV format. Enjoy it!
 # Build and usage
 folow next steps to build and run codes to calculate SCOAP values:
 1.	Create a solution in visual studio (Enterprise 2015):
